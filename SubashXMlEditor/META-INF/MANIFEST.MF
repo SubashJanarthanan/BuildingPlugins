@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: SubashXMlEditor
+Bundle-SymbolicName: SubashXMlEditor;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: subashxmleditor.Activator
+Bundle-Vendor: Subash
+Require-Bundle: org.eclipse.ui,
+  org.eclipse.core.runtime,
+  org.eclipse.jface.text,
+  org.eclipse.ui.editors
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: SubashXMlEditor
+Bundle-ActivationPolicy: lazy
